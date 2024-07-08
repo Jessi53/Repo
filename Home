@@ -5,6 +5,7 @@ source $HOME/.cargo/env
 
 
 rustup install stable
+#Des
 
 
 rustup update stable
@@ -64,5 +65,6 @@ RECORD=""
 
 
 #source $HOME/.cargo/env
+
 
 snarkos developer deploy "${APPNAME}.aleo" --private-key "${PRIVATEKEY}" --query "https://vm.aleo.org/api" --path "./${APPNAME}/build/" --broadcast "https://vm.aleo.org/api/testnet3/transaction/broadcast" --fee 600000 --record "${RECORD}"
