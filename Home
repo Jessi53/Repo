@@ -5,7 +5,6 @@ source $HOME/.cargo/env
 
 
 rustup install stable
-#Des
 
 
 rustup update stable
