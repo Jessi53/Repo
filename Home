@@ -10,9 +10,6 @@ rustup install stable
 rustup update stable
 
 
-#rustup default stable
-
-
 rustup default stable
 
 
